@@ -1,4 +1,4 @@
-$tag-background-color: $background !default;
+$tag-background-color: #EFE6C4 !default;
 $tag-color: $text !default;
 $tag-radius: $radius !default;
 $tag-delete-margin: 1px !default;
@@ -104,7 +104,7 @@ $tag-delete-margin: 1px !default;
     $color-invert: nth($pair, 2);
 
     &.is-#{$name} {
-      background-color: $color;
+      background-color: #D1736C;
       color: $color-invert;
 
       // If a light and dark colors are provided
